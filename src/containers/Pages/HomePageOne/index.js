@@ -23,7 +23,7 @@ import portfolio2 from '../../../images/studies/2.jpg'
 import portfolio3 from '../../../images/studies/3.jpg'
 import portfolio4 from '../../../images/studies/4.jpg'
 import portfolio5 from '../../../images/studies/5.jpg'
-import './index.css';
+
 const aboutText = [
     { text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at ,' },
     { text: 'and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum' },
@@ -86,30 +86,11 @@ const portfolioItem = [
     { images: portfolio4, title: 'Accounting issue', subtitle: 'Criminal' },
     { images: portfolio5, title: 'Business Accounting', subtitle: 'Family Issue' }
 ]
-const path = require.main.filename
 
 const HomePageOne = () => {
     return (
         <Fragment>
-            <head>
-            </head>
-            <body>
-                <h3 data-text="Coming soon...">Coming soon...</h3>
-                <h6></h6>
-                <footer style={{
-                    'margin-top': '38%',
-                    'justify-items': 'center',
-                    'text-align': 'center',
-                    'color': 'white',
-                    'font-size': '1.5rem'
-                }}>
-                    Muhammad Yaseen&Partner’s
-                    Attorney’s At Law
-                    <br />
-                    00962788101010
-                </footer>
-            </body>
-            {/* <header className="headerArea">
+            <header className="headerArea">
                 <HeaderTop className="headerTop" />
                 <HeaderBotton className="headerBottomArea" />
             </header>
@@ -160,7 +141,7 @@ const HomePageOne = () => {
             <NewsLetter
                 className="newsLetterArea"
             />
-            <FooterArea/> */}
+            <FooterArea/>
         </Fragment>
     )
 }

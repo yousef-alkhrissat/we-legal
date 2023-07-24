@@ -25,7 +25,7 @@ class App extends Component {
                     <ToastContainer autoClose={2500} position="top-center" />
                     <Switch>
                         <Route exact path="/" component={HomePageOne} />
-                        {/* <Route exact path="/home-two" component={HomePageTwo} />
+                        <Route exact path="/home-two" component={HomePageTwo} />
                         <Route exact path="/home-three" component={HomePageThree} />
                         <Route exact path="/about" component={AboutPage} />
                         <Route exact path="/practice" component={PracticePage} />
@@ -37,7 +37,7 @@ class App extends Component {
                         <Route exact path="/contact" component={ContactPage} />
                         <Route exact path="/blog-left" component={BlogLeftPage} />
                         <Route exact path="/blog-right" component={BlogRightPage} />
-                        <Route exact path="/blog-fullwidth" component={BlogFullWidth} /> */}
+                        <Route exact path="/blog-fullwidth" component={BlogFullWidth} />
                     </Switch>
                 </BrowserRouter>
             </Fragment>
